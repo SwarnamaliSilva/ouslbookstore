@@ -1,0 +1,76 @@
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d0e6a5, #fbc083); 
+}
+
+.bodyContent {
+    display: flex;
+    width: 90%;
+    max-width: 850px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.form {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.formContent {
+    width: 100%;
+    max-width: 300px;
+}
+
+.formImage {
+    flex: 1;
+    background-image: url('your-bookstore-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formImageSection {
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .bodyContent {
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .formImage {
+        height: 200px;
+    }
+}
+
+.container2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.textsignup2{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+@media (max-width: 768px) {
+    .bodyContent{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+
